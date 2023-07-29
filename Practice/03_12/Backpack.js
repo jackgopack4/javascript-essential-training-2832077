@@ -4,7 +4,11 @@
  * Class declaration: class Name {}
  * Class expression:  const Name = class {}
  */
-
+const updateBackpack = (update) => {
+  let main = document.querySelector("main");
+  main.innerHTML = markup(Backpack);
+  console.info(update);
+};
 class Backpack {
   constructor(
     // Defines parameters:
